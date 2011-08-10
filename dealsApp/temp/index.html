@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="jquery-1.6.1.js"></script>
+
+	<style type="text/css">
+		#sample-feed-block ul, #sample-feed-block ul li
+		{
+		   list-style-type: none;
+		   background-image: none;
+		}
+
+		#sample-feed-block ul li a
+		{
+		   display: block;
+		   background-repeat: no-repeat;
+		   background-position: 3px 3px;
+		   padding: 2px 0 0 25px;
+		   margin-bottom: 0.5em;
+		}
+	</style>
+
+	<script type="text/javascript">
+		/*$(function(){
+		   var CssToAdd = new Object();
+			$.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=PnGJw3yU3BGyvidq8SvLAg&_render=json&_callback=?',
+		   function(data){		
+		      $.each(data.value.items, function(i,item){
+		         var domain = ((typeof(item['feedburner:origLink'])!='undefined') ? item['feedburner:origLink'] : item.link);
+		         domain = domain.replace(/(http:\/\/.*?\/).*/
+			/* 
+		         i,'$1');
+		        CssToAdd[domain.replace(/[^a-z]/ig,'_')] = domain;
+		         $('<a>').attr('href',item.link).text(item.title).addClass(domain.replace(/[^a-z]/ig,'_')).appendTo('#sample-feed-block');
+		      });
+		      $('#sample-feed-block a').wrapAll('<ul>').wrap('<li>');
+				
+		      $.each(CssToAdd, function(c, d){
+		         $('#sample-feed-block a.' + c).css('background-image','url(' + d + 'favicon.ico)');
+		      });
+		   });
+		});*/
+		var max = 5;
+
+		
+
+		
+
+
+
+	</script>
+</head>
+<body>
+		<div id="sample-feed-block"></div>
+</body>
+</html>
